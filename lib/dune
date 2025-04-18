@@ -1,0 +1,4 @@
+(library
+ (name tychk)
+ (libraries base)
+ (preprocess (pps ppx_deriving.std)))

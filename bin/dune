@@ -1,0 +1,5 @@
+(executable
+ (public_name tychk)
+ (name main)
+ (libraries tychk)
+ (preprocess (pps ppx_deriving.std)))
